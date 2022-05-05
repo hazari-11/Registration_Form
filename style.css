@@ -1,0 +1,71 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 80%;
+  padding: 34px;
+  margin: auto;
+}
+p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: 800;
+  font-family: "Oleo Script", cursive;
+}
+.submitMsg {
+  color: black;
+  font-weight: 800;
+  font-family: "Oleo Script", cursive;
+}
+.container h1 {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Oleo Script", cursive;
+}
+input {
+  border: 2px solid black;
+  border-radius: 5px;
+  outline: none;
+  width: 300%;
+  margin: 9px 0px;
+  padding: 7px;
+  font-size: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  color: white;
+  background-color: black;
+  padding: 10px 6px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.7;
+}
+.formerror {
+  color: red;
+}
+
